@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EJERCICIO 2</title>
+  <style>
+    .encabezado {
+      grid-column: 1/4;
+      text-align: center;
+      padding: 20px;
+      background-color: gray;
+    }
+    .cajas{
+      background-color: gray;
+      text-align: center;
+      padding: 20px;
+    }
+    .papagrande {
+      display: grid;
+      grid-gap: 2px;
+      width: 450px;
+      grid-template-columns: repeat(3, 1fr);
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="papagrande">
+  <div class="encabezado">celda 1</div>
+  <div class="cajas">celda 2</div>
+  <div class="cajas">celda 3</div>
+  <div class="cajas">celda 4</div>
+  <div class="cajas">celda 5</div>
+  <div class="cajas">celda 6</div>
+  <div class="cajas">celda 7</div>
+  </div>
+  </div>
+</body>
+</html>
