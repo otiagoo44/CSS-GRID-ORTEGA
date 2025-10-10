@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIO 9</title>
+    <style>
+        .tabla {
+            margin: 0 auto;
+            gap: 1px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            width: 200px;
+            height: 250px;
+        }
+        .columna1 {
+            grid-column: 1/2;
+            
+        }
+        .tabla div {
+            background-color: gray;
+            padding: 20px;
+        }
+        .arrder {
+            grid-column: 2/3;
+            grid-row: 1/2;
+        }
+        .medder {
+            grid-column: 2/3;
+            grid-row: 2/3;
+        }
+        .abjder {
+            grid-column: 2/3;
+            grid-row: 3/4;
+        }
+    </style>
+</head>
+<body>
+    <div class="tabla">
+        <div class="columna1">celda 1</div>
+        <div class="columna1">celda 2</div>
+        <div class="columna1">celda 3</div>
+        <div class="arrder">celda 4</div>
+        <div class="medder">celda 5</div>
+        <div class="abjder">celda 6</div>
+    </div>
+</body>
+</html>
